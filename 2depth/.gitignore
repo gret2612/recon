@@ -1,0 +1,12 @@
+.spyproject/
+*__pycache__/
+data/
+demo/*
+!color*.png
+demo_results/
+legacy/
+results/
+pretrained_model/
+Revisiting_Single_Depth_Estimation/
+simulation/blender/*
+simulation/models/

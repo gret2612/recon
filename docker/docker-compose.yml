@@ -1,0 +1,40 @@
+# docker-composeのバージョン指定
+version: '2.3'
+
+# コンテナ起動を楽にするための記述
+services:
+    endo.rinta_test:
+        # build時の設定
+        build:
+        
+            # Dockerfileがあるディレクトリのパス
+            context: .
+            
+            # Dockerfileに渡す環境変数。コマンドの返り値をshファイルで文字列に変換して使用する
+            args:
+              user: endo.rinta
+              uid: 1049053
+              gid: 1000513
+        
+        # image名
+        image: endo.rinta/test
+        
+        # コンテナ名
+        container_name: endo.rinta_test
+        
+        # user@virgoなどのvirgoの部分。
+        hostname: docker
+        
+        # jupyter用にポートを開ける。衝突を防ぐため自分のuidの下4桁を使用する。
+        #ports:
+            #- 59053:59053
+            
+        # マウント処理。:で分割し、左がホスト、右がdocker内
+        volumes:
+            - "/mnt/kraz:/mnt/kraz"
+            - "~/workspace/:/home/endo.rinta/workspace/"
+            - "/mnt/mensa/datasets/:/home/endo.rinta/datasets/"
+            - "/workspace/endo.rinta/:/home/endo.rinta/output/"
+        
+        # dockerコンテナを起動状態のままにしておくコマンド
+        tty: true

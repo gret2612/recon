@@ -1,0 +1,4 @@
+Data/ShapeNetP2M/db/01/00.dat
+Data/ShapeNetP2M/db/01/01.dat
+Data/ShapeNetP2M/db/01/02.dat
+Data/ShapeNetP2M/db/01/03.dat
