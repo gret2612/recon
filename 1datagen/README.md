@@ -38,8 +38,6 @@ pip install blenderproc==2.4.1 numpy==1.19.2
 blenderproc run datagen.py
 ```
 
-- 
 - mat_numは背景（床と壁）のテクスチャの数（変更不要）
 - frは背景（床と壁）のテクスチャごとの生成枚数（変更不要）
 - 論文の実験では11種類の食品に対して、10種類の背景で10枚ずつ作成したので、計1100枚作成
-- 生成されたデータセットはkraz/students/2022/users/endo.rinta/synthetic.zipに保存あります
