@@ -9,7 +9,7 @@
 - 5recon: 3次元再構成
 
 ```sh
-git clone http://jupiter.vssad.it.aoyama.ac.jp/endo.rinta/recon.git #できない場合はzipでダウンロードしてscpで送る
+git clone https://github.com/gret2612/recon.git #できない場合はzipでダウンロードしてscpで送る
 cd recon/docker
 sh bootstrap.sh
 ```
