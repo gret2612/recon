@@ -52,11 +52,6 @@ python demo.py --input reals/ --gpu 0 --model results/synthetic_mask=False_arch=
 ```
 
 - results/synthetic_mask=False_arch=resnet_bs=8_lr=0.0001_ep=2_br=1_sd=1/demo_results内に深度画像が生成される
-- 学習済みモデルはkraz/students/2022/users/endo.rinta/synthetic_mask=False_arch=resnet_bs=8_lr=0.0001_ep=30_br=1_sd=1.zipにあります
-
--詳しい使用方法は金子先生のgitを参照
-金子先生のgit：
-http://133.2.208.201/kaneko.naoshi/depth_domainadaptation
 
 
 精度：
