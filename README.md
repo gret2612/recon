@@ -4,10 +4,10 @@
 
 
 - [1datagen](1datagen): 深度推定とセグメンテーションに用いるデータセットを作成
-- 2depth: 深度推定
-- 3segmentation: セグメンテーション
-- 4recondataset: ３次元再構成に用いるデータセットを作成
-- 5recon: 3次元再構成
+- [2depth](2depth): 深度推定
+- [3segmentation](3segmentation): セグメンテーション
+- [4recondataset](4recondataset): ３次元再構成に用いるデータセットを作成
+- [5recon](5recon): 3次元再構成
 
 ```sh
 git clone https://github.com/gret2612/recon.git #できない場合はzipでダウンロードしてscpで送る
