@@ -1,4 +1,5 @@
 - 単一視点から3次元モデル再構成を行う
+- [Contribution guidelines for this project](thesis_01.pdf)
 - 1datagen→2depth→3segmention→4recondatagen→5reconの順番で行う
 
 
